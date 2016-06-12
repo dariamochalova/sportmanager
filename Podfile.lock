@@ -1,0 +1,30 @@
+PODS:
+  - CorePlot (2.1)
+  - FMDB (2.6.2):
+    - FMDB/standard
+  - FMDB/standard (2.6.2)
+  - IHKeyboardAvoiding (2.5)
+  - IHKeyboardDismissing (1.1)
+  - MKInputBoxView (0.9.3)
+  - RESideMenu (4.0.7)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - CorePlot
+  - FMDB
+  - IHKeyboardAvoiding
+  - IHKeyboardDismissing
+  - MKInputBoxView
+  - RESideMenu
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  CorePlot: ab9898c79b94999018e9634ab0aa4c21480c8552
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  IHKeyboardAvoiding: 8f14fed93405dd2c44ce070a26f780d9e477538c
+  IHKeyboardDismissing: 7c23d41da51ca22f6a1091b3cf852821a2461ac9
+  MKInputBoxView: 022c89a4815fbcf2fcdea95f967fdba2c4f5fb73
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+COCOAPODS: 0.34.2

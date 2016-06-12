@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  SportManager
+
+  Created by Darya on 01/05/16.
+  Copyright © 2016 Darya Mochalova. All rights reserved.
+*/
+
+"ok" = "OK";
+"error" = "Error";
+"kmh" = "km/h";
+"meters" = "m";
+"enterExerciseNameTitle" = "Exercise Name";
+"enterExerciseName" = "Please enter exercise name";
+"bpm" = "bpm";
+"exercises" = "Exercises";
+"heartData" = "Heart Data";
+"notFound" = "Not found";
+"km" = "km";
+"min" = "min";
+"startExercise" = "Start Exercise";
+"myExercises" = "My Exercises";
+"profile" = "Profile";
+"settings" = "Settings";
+"logOut" = "Logout";
+"fillFields" = "Fill the fields!";

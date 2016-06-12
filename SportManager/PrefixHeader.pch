@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  SportManager
+//
+//  Created by Darya on 30/04/16.
+//  Copyright © 2016 Darya Mochalova. All rights reserved.
+//
+
+//#ifndef PrefixHeader_pch
+//#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+
+typedef void(^completionBlockType)();
+typedef void(^queryBlockType)(NSArray *results);
+typedef void(^entityBlockType)(id result);
+typedef void(^errorBlockType)(NSError *error);
+
+#import "DMDataStorage.h"
+#import "SVProgressHUD.h"
+#import "DMExerciseManager.h"
+#import "DMNotifications.h"
+
+#define dataStorage [DMDataStorage sharedStorage]
+#define exerciseManager [DMExerciseManager sharedManager]
+
+#define lcString(key) NSLocalizedString((key), nil)
+
+//#endif /* PrefixHeader_pch */

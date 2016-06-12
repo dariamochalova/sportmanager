@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC95C65AC4370DC15B36133 /* libPods-SportManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A3ACAE92F7373A397C8130 /* libPods-SportManager.a */; };
+		AC452F761CD5176000CAA399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC452F751CD5176000CAA399 /* main.m */; };
+		AC452F791CD5176000CAA399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC452F781CD5176000CAA399 /* AppDelegate.m */; };
+		AC452F7F1CD5176000CAA399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC452F7D1CD5176000CAA399 /* Main.storyboard */; };
+		AC452F811CD5176000CAA399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC452F801CD5176000CAA399 /* Assets.xcassets */; };
+		AC452F841CD5176000CAA399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC452F821CD5176000CAA399 /* LaunchScreen.storyboard */; };
+		AC452F911CD51AD900CAA399 /* DMExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = AC452F901CD51AD900CAA399 /* DMExercise.m */; };
+		AC452F941CD51B0D00CAA399 /* DMAthlete.m in Sources */ = {isa = PBXBuildFile; fileRef = AC452F931CD51B0D00CAA399 /* DMAthlete.m */; };
+		AC452F971CD51B5B00CAA399 /* DMGPSData.m in Sources */ = {isa = PBXBuildFile; fileRef = AC452F961CD51B5B00CAA399 /* DMGPSData.m */; };
+		AC452F9A1CD51CC700CAA399 /* DMHeartData.m in Sources */ = {isa = PBXBuildFile; fileRef = AC452F991CD51CC700CAA399 /* DMHeartData.m */; };
+		AC452F9E1CD51F7900CAA399 /* DMDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = AC452F9D1CD51F7900CAA399 /* DMDataStorage.m */; };
+		AC452FA11CD51FB400CAA399 /* DMExerciseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC452FA01CD51FB400CAA399 /* DMExerciseManager.m */; };
+		AC452FA41CD5204F00CAA399 /* DMLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = AC452FA31CD5204F00CAA399 /* DMLoginService.m */; };
+		AC452FA91CD522C400CAA399 /* DMLocationDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = AC452FA81CD522C400CAA399 /* DMLocationDataProvider.m */; };
+		AC452FAC1CD5230D00CAA399 /* DMHeartDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = AC452FAB1CD5230D00CAA399 /* DMHeartDataProvider.m */; };
+		AC452FAF1CD52F2000CAA399 /* database.db in Resources */ = {isa = PBXBuildFile; fileRef = AC452FAE1CD52F2000CAA399 /* database.db */; };
+		AC452FB31CD5439B00CAA399 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC452FB21CD5439B00CAA399 /* SignUpViewController.m */; };
+		AC452FB61CD545AD00CAA399 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC452FB51CD545AD00CAA399 /* LoginViewController.m */; };
+		AC5359791CD565410095288A /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5359781CD565410095288A /* LeftMenuViewController.m */; };
+		AC53597C1CD61A880095288A /* ExercisesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC53597B1CD61A880095288A /* ExercisesViewController.m */; };
+		AC53597F1CD61CC10095288A /* ExerciseStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC53597E1CD61CC10095288A /* ExerciseStartViewController.m */; };
+		AC5359811CD61DCD0095288A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5359801CD61DCD0095288A /* MapKit.framework */; };
+		AC5359841CD623000095288A /* CurrentExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5359831CD623000095288A /* CurrentExerciseViewController.m */; };
+		AC5359951CD666B10095288A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC5359971CD666B10095288A /* Localizable.strings */; };
+		AC7349131CD696A3009B3B21 /* ExerciseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7349121CD696A3009B3B21 /* ExerciseTableViewCell.m */; };
+		AC7349161CD699CB009B3B21 /* ExerciseSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7349151CD699CB009B3B21 /* ExerciseSummaryViewController.m */; };
+		AC7349191CD6A53A009B3B21 /* HeartDataInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7349181CD6A53A009B3B21 /* HeartDataInfoViewController.m */; };
+		ACAF07161CD5635C0017EFAB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAF07151CD5635C0017EFAB /* RootViewController.m */; };
+		ACB358671CE39FD7007657D8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB358661CE39FD7007657D8 /* BaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14C929F5E1AAD51A1FACCBA5 /* Pods-SportManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-SportManager/Pods-SportManager.release.xcconfig"; sourceTree = "<group>"; };
+		54A3ACAE92F7373A397C8130 /* libPods-SportManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SportManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1E50611CE3DE55002E93EE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		AC452F711CD5176000CAA399 /* SportManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC452F751CD5176000CAA399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC452F771CD5176000CAA399 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC452F781CD5176000CAA399 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC452F7E1CD5176000CAA399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC452F801CD5176000CAA399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC452F831CD5176000CAA399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC452F851CD5176000CAA399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC452F8F1CD51AD900CAA399 /* DMExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMExercise.h; path = Models/DMExercise.h; sourceTree = "<group>"; };
+		AC452F901CD51AD900CAA399 /* DMExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMExercise.m; path = Models/DMExercise.m; sourceTree = "<group>"; };
+		AC452F921CD51B0D00CAA399 /* DMAthlete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMAthlete.h; path = Models/DMAthlete.h; sourceTree = "<group>"; };
+		AC452F931CD51B0D00CAA399 /* DMAthlete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMAthlete.m; path = Models/DMAthlete.m; sourceTree = "<group>"; };
+		AC452F951CD51B5B00CAA399 /* DMGPSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMGPSData.h; path = Models/DMGPSData.h; sourceTree = "<group>"; };
+		AC452F961CD51B5B00CAA399 /* DMGPSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMGPSData.m; path = Models/DMGPSData.m; sourceTree = "<group>"; };
+		AC452F981CD51CC700CAA399 /* DMHeartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMHeartData.h; path = Models/DMHeartData.h; sourceTree = "<group>"; };
+		AC452F991CD51CC700CAA399 /* DMHeartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMHeartData.m; path = Models/DMHeartData.m; sourceTree = "<group>"; };
+		AC452F9C1CD51F7900CAA399 /* DMDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMDataStorage.h; path = Managers/DMDataStorage.h; sourceTree = "<group>"; };
+		AC452F9D1CD51F7900CAA399 /* DMDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMDataStorage.m; path = Managers/DMDataStorage.m; sourceTree = "<group>"; };
+		AC452F9F1CD51FB400CAA399 /* DMExerciseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMExerciseManager.h; path = Managers/DMExerciseManager.h; sourceTree = "<group>"; };
+		AC452FA01CD51FB400CAA399 /* DMExerciseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMExerciseManager.m; path = Managers/DMExerciseManager.m; sourceTree = "<group>"; };
+		AC452FA21CD5204F00CAA399 /* DMLoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMLoginService.h; path = Managers/DMLoginService.h; sourceTree = "<group>"; };
+		AC452FA31CD5204F00CAA399 /* DMLoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMLoginService.m; path = Managers/DMLoginService.m; sourceTree = "<group>"; };
+		AC452FA51CD521B500CAA399 /* DMDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMDataProvider.h; path = Providers/DMDataProvider.h; sourceTree = "<group>"; };
+		AC452FA71CD522C400CAA399 /* DMLocationDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMLocationDataProvider.h; path = Providers/DMLocationDataProvider.h; sourceTree = "<group>"; };
+		AC452FA81CD522C400CAA399 /* DMLocationDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMLocationDataProvider.m; path = Providers/DMLocationDataProvider.m; sourceTree = "<group>"; };
+		AC452FAA1CD5230D00CAA399 /* DMHeartDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMHeartDataProvider.h; path = Providers/DMHeartDataProvider.h; sourceTree = "<group>"; };
+		AC452FAB1CD5230D00CAA399 /* DMHeartDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMHeartDataProvider.m; path = Providers/DMHeartDataProvider.m; sourceTree = "<group>"; };
+		AC452FAD1CD52AA400CAA399 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AC452FAE1CD52F2000CAA399 /* database.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.db; sourceTree = "<group>"; };
+		AC452FB11CD5439B00CAA399 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = ViewControllers/SignUpViewController.h; sourceTree = "<group>"; };
+		AC452FB21CD5439B00CAA399 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = ViewControllers/SignUpViewController.m; sourceTree = "<group>"; };
+		AC452FB41CD545AD00CAA399 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewControllers/LoginViewController.h; sourceTree = "<group>"; };
+		AC452FB51CD545AD00CAA399 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewControllers/LoginViewController.m; sourceTree = "<group>"; };
+		AC5359771CD565410095288A /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftMenuViewController.h; path = ViewControllers/LeftMenuViewController.h; sourceTree = "<group>"; };
+		AC5359781CD565410095288A /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftMenuViewController.m; path = ViewControllers/LeftMenuViewController.m; sourceTree = "<group>"; };
+		AC53597A1CD61A880095288A /* ExercisesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExercisesViewController.h; path = ViewControllers/ExercisesViewController.h; sourceTree = "<group>"; };
+		AC53597B1CD61A880095288A /* ExercisesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExercisesViewController.m; path = ViewControllers/ExercisesViewController.m; sourceTree = "<group>"; };
+		AC53597D1CD61CC10095288A /* ExerciseStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseStartViewController.h; path = ViewControllers/ExerciseStartViewController.h; sourceTree = "<group>"; };
+		AC53597E1CD61CC10095288A /* ExerciseStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseStartViewController.m; path = ViewControllers/ExerciseStartViewController.m; sourceTree = "<group>"; };
+		AC5359801CD61DCD0095288A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AC5359821CD623000095288A /* CurrentExerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrentExerciseViewController.h; path = ViewControllers/CurrentExerciseViewController.h; sourceTree = "<group>"; };
+		AC5359831CD623000095288A /* CurrentExerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrentExerciseViewController.m; path = ViewControllers/CurrentExerciseViewController.m; sourceTree = "<group>"; };
+		AC5359851CD655340095288A /* DMNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMNotifications.h; sourceTree = "<group>"; };
+		AC5359891CD666160095288A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AC5359961CD666B10095288A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AC5359981CD666B70095288A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AC5359991CD666B80095288A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AC7349111CD696A3009B3B21 /* ExerciseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseTableViewCell.h; path = ViewControllers/ExerciseTableViewCell.h; sourceTree = "<group>"; };
+		AC7349121CD696A3009B3B21 /* ExerciseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseTableViewCell.m; path = ViewControllers/ExerciseTableViewCell.m; sourceTree = "<group>"; };
+		AC7349141CD699CB009B3B21 /* ExerciseSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseSummaryViewController.h; path = ViewControllers/ExerciseSummaryViewController.h; sourceTree = "<group>"; };
+		AC7349151CD699CB009B3B21 /* ExerciseSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseSummaryViewController.m; path = ViewControllers/ExerciseSummaryViewController.m; sourceTree = "<group>"; };
+		AC7349171CD6A53A009B3B21 /* HeartDataInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeartDataInfoViewController.h; path = ViewControllers/HeartDataInfoViewController.h; sourceTree = "<group>"; };
+		AC7349181CD6A53A009B3B21 /* HeartDataInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeartDataInfoViewController.m; path = ViewControllers/HeartDataInfoViewController.m; sourceTree = "<group>"; };
+		ACAF07141CD5635C0017EFAB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ViewControllers/RootViewController.h; sourceTree = "<group>"; };
+		ACAF07151CD5635C0017EFAB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ViewControllers/RootViewController.m; sourceTree = "<group>"; };
+		ACB358651CE39FD7007657D8 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ViewControllers/BaseViewController.h; sourceTree = "<group>"; };
+		ACB358661CE39FD7007657D8 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ViewControllers/BaseViewController.m; sourceTree = "<group>"; };
+		E0171ABBF4EB3FB2DAA462FE /* Pods-SportManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SportManager/Pods-SportManager.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC452F6E1CD5176000CAA399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5359811CD61DCD0095288A /* MapKit.framework in Frameworks */,
+				2AC95C65AC4370DC15B36133 /* libPods-SportManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4801F15733692738D79A46B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0171ABBF4EB3FB2DAA462FE /* Pods-SportManager.debug.xcconfig */,
+				14C929F5E1AAD51A1FACCBA5 /* Pods-SportManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D5C1B7A1AAF7F8DA60056B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC5359801CD61DCD0095288A /* MapKit.framework */,
+				54A3ACAE92F7373A397C8130 /* libPods-SportManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC452F681CD5176000CAA399 = {
+			isa = PBXGroup;
+			children = (
+				AC452F731CD5176000CAA399 /* SportManager */,
+				AC452F721CD5176000CAA399 /* Products */,
+				4801F15733692738D79A46B6 /* Pods */,
+				7D5C1B7A1AAF7F8DA60056B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC452F721CD5176000CAA399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC452F711CD5176000CAA399 /* SportManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC452F731CD5176000CAA399 /* SportManager */ = {
+			isa = PBXGroup;
+			children = (
+				AC452FB01CD5436C00CAA399 /* ViewControllers */,
+				AC452FA61CD521BA00CAA399 /* Providers */,
+				AC452F9B1CD51F5500CAA399 /* Managers */,
+				AC452F8E1CD51A9200CAA399 /* Models */,
+				AC452F771CD5176000CAA399 /* AppDelegate.h */,
+				AC452F781CD5176000CAA399 /* AppDelegate.m */,
+				AC452F7D1CD5176000CAA399 /* Main.storyboard */,
+				AC452F801CD5176000CAA399 /* Assets.xcassets */,
+				AC452F821CD5176000CAA399 /* LaunchScreen.storyboard */,
+				AC452F851CD5176000CAA399 /* Info.plist */,
+				AC452F741CD5176000CAA399 /* Supporting Files */,
+				AC5359851CD655340095288A /* DMNotifications.h */,
+			);
+			path = SportManager;
+			sourceTree = "<group>";
+		};
+		AC452F741CD5176000CAA399 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC452FAE1CD52F2000CAA399 /* database.db */,
+				AC452F751CD5176000CAA399 /* main.m */,
+				AC452FAD1CD52AA400CAA399 /* PrefixHeader.pch */,
+				AC5359971CD666B10095288A /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC452F8E1CD51A9200CAA399 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC452F8F1CD51AD900CAA399 /* DMExercise.h */,
+				AC452F901CD51AD900CAA399 /* DMExercise.m */,
+				AC452F921CD51B0D00CAA399 /* DMAthlete.h */,
+				AC452F931CD51B0D00CAA399 /* DMAthlete.m */,
+				AC452F951CD51B5B00CAA399 /* DMGPSData.h */,
+				AC452F961CD51B5B00CAA399 /* DMGPSData.m */,
+				AC452F981CD51CC700CAA399 /* DMHeartData.h */,
+				AC452F991CD51CC700CAA399 /* DMHeartData.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AC452F9B1CD51F5500CAA399 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AC452F9C1CD51F7900CAA399 /* DMDataStorage.h */,
+				AC452F9D1CD51F7900CAA399 /* DMDataStorage.m */,
+				AC452F9F1CD51FB400CAA399 /* DMExerciseManager.h */,
+				AC452FA01CD51FB400CAA399 /* DMExerciseManager.m */,
+				AC452FA21CD5204F00CAA399 /* DMLoginService.h */,
+				AC452FA31CD5204F00CAA399 /* DMLoginService.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		AC452FA61CD521BA00CAA399 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				AC452FA51CD521B500CAA399 /* DMDataProvider.h */,
+				AC452FA71CD522C400CAA399 /* DMLocationDataProvider.h */,
+				AC452FA81CD522C400CAA399 /* DMLocationDataProvider.m */,
+				AC452FAA1CD5230D00CAA399 /* DMHeartDataProvider.h */,
+				AC452FAB1CD5230D00CAA399 /* DMHeartDataProvider.m */,
+			);
+			name = Providers;
+			sourceTree = "<group>";
+		};
+		AC452FB01CD5436C00CAA399 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC452FB11CD5439B00CAA399 /* SignUpViewController.h */,
+				AC452FB21CD5439B00CAA399 /* SignUpViewController.m */,
+				AC452FB41CD545AD00CAA399 /* LoginViewController.h */,
+				AC452FB51CD545AD00CAA399 /* LoginViewController.m */,
+				ACAF07141CD5635C0017EFAB /* RootViewController.h */,
+				ACAF07151CD5635C0017EFAB /* RootViewController.m */,
+				AC5359771CD565410095288A /* LeftMenuViewController.h */,
+				AC5359781CD565410095288A /* LeftMenuViewController.m */,
+				AC53597A1CD61A880095288A /* ExercisesViewController.h */,
+				AC53597B1CD61A880095288A /* ExercisesViewController.m */,
+				AC53597D1CD61CC10095288A /* ExerciseStartViewController.h */,
+				AC53597E1CD61CC10095288A /* ExerciseStartViewController.m */,
+				AC5359821CD623000095288A /* CurrentExerciseViewController.h */,
+				AC5359831CD623000095288A /* CurrentExerciseViewController.m */,
+				AC7349111CD696A3009B3B21 /* ExerciseTableViewCell.h */,
+				AC7349121CD696A3009B3B21 /* ExerciseTableViewCell.m */,
+				AC7349141CD699CB009B3B21 /* ExerciseSummaryViewController.h */,
+				AC7349151CD699CB009B3B21 /* ExerciseSummaryViewController.m */,
+				AC7349171CD6A53A009B3B21 /* HeartDataInfoViewController.h */,
+				AC7349181CD6A53A009B3B21 /* HeartDataInfoViewController.m */,
+				ACB358651CE39FD7007657D8 /* BaseViewController.h */,
+				ACB358661CE39FD7007657D8 /* BaseViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC452F701CD5176000CAA399 /* SportManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC452F881CD5176000CAA399 /* Build configuration list for PBXNativeTarget "SportManager" */;
+			buildPhases = (
+				AD7F7654EC922B1970880FBF /* Check Pods Manifest.lock */,
+				AC452F6D1CD5176000CAA399 /* Sources */,
+				AC452F6E1CD5176000CAA399 /* Frameworks */,
+				AC452F6F1CD5176000CAA399 /* Resources */,
+				2C95F51251351DEDDAE4392E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportManager;
+			productName = SportManager;
+			productReference = AC452F711CD5176000CAA399 /* SportManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC452F691CD5176000CAA399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Darya Mochalova";
+				TargetAttributes = {
+					AC452F701CD5176000CAA399 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = QKM52G575Q;
+					};
+				};
+			};
+			buildConfigurationList = AC452F6C1CD5176000CAA399 /* Build configuration list for PBXProject "SportManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = AC452F681CD5176000CAA399;
+			productRefGroup = AC452F721CD5176000CAA399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC452F701CD5176000CAA399 /* SportManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC452F6F1CD5176000CAA399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC452FAF1CD52F2000CAA399 /* database.db in Resources */,
+				AC452F841CD5176000CAA399 /* LaunchScreen.storyboard in Resources */,
+				AC452F811CD5176000CAA399 /* Assets.xcassets in Resources */,
+				AC5359951CD666B10095288A /* Localizable.strings in Resources */,
+				AC452F7F1CD5176000CAA399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C95F51251351DEDDAE4392E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportManager/Pods-SportManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7F7654EC922B1970880FBF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC452F6D1CD5176000CAA399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC452F941CD51B0D00CAA399 /* DMAthlete.m in Sources */,
+				AC7349191CD6A53A009B3B21 /* HeartDataInfoViewController.m in Sources */,
+				AC452F911CD51AD900CAA399 /* DMExercise.m in Sources */,
+				AC7349161CD699CB009B3B21 /* ExerciseSummaryViewController.m in Sources */,
+				AC5359791CD565410095288A /* LeftMenuViewController.m in Sources */,
+				AC53597F1CD61CC10095288A /* ExerciseStartViewController.m in Sources */,
+				AC452FAC1CD5230D00CAA399 /* DMHeartDataProvider.m in Sources */,
+				AC7349131CD696A3009B3B21 /* ExerciseTableViewCell.m in Sources */,
+				AC452F9E1CD51F7900CAA399 /* DMDataStorage.m in Sources */,
+				AC452FB61CD545AD00CAA399 /* LoginViewController.m in Sources */,
+				AC452F971CD51B5B00CAA399 /* DMGPSData.m in Sources */,
+				AC452F9A1CD51CC700CAA399 /* DMHeartData.m in Sources */,
+				AC452FA11CD51FB400CAA399 /* DMExerciseManager.m in Sources */,
+				AC5359841CD623000095288A /* CurrentExerciseViewController.m in Sources */,
+				AC53597C1CD61A880095288A /* ExercisesViewController.m in Sources */,
+				AC452F791CD5176000CAA399 /* AppDelegate.m in Sources */,
+				AC452FA91CD522C400CAA399 /* DMLocationDataProvider.m in Sources */,
+				AC452FA41CD5204F00CAA399 /* DMLoginService.m in Sources */,
+				AC452FB31CD5439B00CAA399 /* SignUpViewController.m in Sources */,
+				AC452F761CD5176000CAA399 /* main.m in Sources */,
+				ACAF07161CD5635C0017EFAB /* RootViewController.m in Sources */,
+				ACB358671CE39FD7007657D8 /* BaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC452F7D1CD5176000CAA399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC452F7E1CD5176000CAA399 /* Base */,
+				AC1E50611CE3DE55002E93EE /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC452F821CD5176000CAA399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC452F831CD5176000CAA399 /* Base */,
+				AC5359891CD666160095288A /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AC5359971CD666B10095288A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC5359961CD666B10095288A /* Base */,
+				AC5359981CD666B70095288A /* en */,
+				AC5359991CD666B80095288A /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC452F861CD5176000CAA399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Run Boy Run";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC452F871CD5176000CAA399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "Run Boy Run";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC452F891CD5176000CAA399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0171ABBF4EB3FB2DAA462FE /* Pods-SportManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SportManager/PrefixHeader.pch;
+				INFOPLIST_FILE = SportManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daryamochalova.SportManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		AC452F8A1CD5176000CAA399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C929F5E1AAD51A1FACCBA5 /* Pods-SportManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SportManager/PrefixHeader.pch;
+				INFOPLIST_FILE = SportManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daryamochalova.SportManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC452F6C1CD5176000CAA399 /* Build configuration list for PBXProject "SportManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC452F861CD5176000CAA399 /* Debug */,
+				AC452F871CD5176000CAA399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC452F881CD5176000CAA399 /* Build configuration list for PBXNativeTarget "SportManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC452F891CD5176000CAA399 /* Debug */,
+				AC452F8A1CD5176000CAA399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC452F691CD5176000CAA399 /* Project object */;
+}

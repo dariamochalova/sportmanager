@@ -1,0 +1,132 @@
+
+/* Class = "UILabel"; text = "Distance"; ObjectID = "2nt-WO-mdI"; */
+"2nt-WO-mdI.text" = "Расстояние";
+
+/* Class = "UITextField"; placeholder = "Login"; ObjectID = "528-Kh-NeX"; */
+"528-Kh-NeX.placeholder" = "Логин";
+
+/* Class = "UILabel"; text = "Last exersice:"; ObjectID = "6Tj-Pt-Qsh"; */
+"6Tj-Pt-Qsh.text" = "Посл. занятие:";
+
+/* Class = "UILabel"; text = "Time:"; ObjectID = "80i-t2-iXL"; */
+"80i-t2-iXL.text" = "Время:";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "8l4-3n-t2m"; */
+"8l4-3n-t2m.placeholder" = "Пароль";
+
+/* Class = "UILabel"; text = "283.9"; ObjectID = "9ve-Ac-oEp"; */
+"9ve-Ac-oEp.text" = "283.9";
+
+/* Class = "UILabel"; text = "0,0 km / 0 min"; ObjectID = "9vn-AO-NKW"; */
+"9vn-AO-NKW.text" = "0,0 km / 0 min";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "9zs-2n-Bfj"; */
+"9zs-2n-Bfj.normalTitle" = "Войти";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "ARA-ZD-ExW"; */
+"ARA-ZD-ExW.text" = "Имя";
+
+/* Class = "UILabel"; text = "km"; ObjectID = "ApB-qG-0h8"; */
+"ApB-qG-0h8.text" = "км";
+
+/* Class = "UIViewController"; title = "Sign Up "; ObjectID = "Brd-7t-DJP"; */
+"Brd-7t-DJP.title" = "Зарегистрироваться";
+
+/* Class = "UILabel"; text = "km/h"; ObjectID = "DUy-TK-Paz"; */
+"DUy-TK-Paz.text" = "км/ч";
+
+/* Class = "UILabel"; text = "km"; ObjectID = "EYn-gE-Ikh"; */
+"EYn-gE-Ikh.text" = "км";
+
+/* Class = "UILabel"; text = "77 bpm"; ObjectID = "Ebh-v1-i1i"; */
+"Ebh-v1-i1i.text" = "77 bpm";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "Ftz-So-K0H"; */
+"Ftz-So-K0H.placeholder" = "Имя";
+
+/* Class = "UILabel"; text = "27/03 13:00"; ObjectID = "I4a-ke-ycP"; */
+"I4a-ke-ycP.text" = "27/03 13:00";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "JQ2-rL-9cY"; */
+"JQ2-rL-9cY.text" = "Имя";
+
+/* Class = "UILabel"; text = "02:48:23"; ObjectID = "NNC-Hd-DUN"; */
+"NNC-Hd-DUN.text" = "02:48:23";
+
+/* Class = "UINavigationItem"; title = "Exercise"; ObjectID = "PTE-1E-7qT"; */
+"PTE-1E-7qT.title" = "Занятие";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "SpS-ro-hSJ"; */
+"SpS-ro-hSJ.placeholder" = "Пароль";
+
+/* Class = "UITextField"; placeholder = "Login"; ObjectID = "ThW-Uv-8Rd"; */
+"ThW-Uv-8Rd.placeholder" = "Логин";
+
+/* Class = "UILabel"; text = "Cals"; ObjectID = "Wpq-oH-nDQ"; */
+"Wpq-oH-nDQ.text" = "Калории";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "Z5W-RX-VvE"; */
+"Z5W-RX-VvE.normalTitle" = "Отмена";
+
+/* Class = "UILabel"; text = "283.9"; ObjectID = "aBz-m6-vM7"; */
+"aBz-m6-vM7.text" = "283.9";
+
+/* Class = "UITextField"; placeholder = "Your Weight"; ObjectID = "asc-s9-g3A"; */
+"asc-s9-g3A.placeholder" = "Вес";
+
+/* Class = "UITextField"; placeholder = "Age"; ObjectID = "bAg-43-23u"; */
+"bAg-43-23u.placeholder" = "Возраст";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "bN5-v4-U4G"; */
+"bN5-v4-U4G.text" = "Время";
+
+/* Class = "UILabel"; text = "12.7"; ObjectID = "brt-bp-KRP"; */
+"brt-bp-KRP.text" = "12.7";
+
+/* Class = "UILabel"; text = "77 bpm"; ObjectID = "cm6-oi-vDS"; */
+"cm6-oi-vDS.text" = "77 bpm";
+
+/* Class = "UILabel"; text = "Average Speed"; ObjectID = "dIW-EY-QhE"; */
+"dIW-EY-QhE.text" = "Средняя скорость";
+
+/* Class = "UILabel"; text = "km/h"; ObjectID = "dX4-7N-RDi"; */
+"dX4-7N-RDi.text" = "км/ч";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "i8x-JI-8Ld"; */
+"i8x-JI-8Ld.title" = "Отмена";
+
+/* Class = "UILabel"; text = "Av Heart Rate"; ObjectID = "jW7-mV-Fzm"; */
+"jW7-mV-Fzm.text" = "Средний пульс";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "n6g-QH-0hK"; */
+"n6g-QH-0hK.normalTitle" = "Зарегистрироваться";
+
+/* Class = "UILabel"; text = "12.7"; ObjectID = "qeE-I9-3ID"; */
+"qeE-I9-3ID.text" = "12.7";
+
+/* Class = "UILabel"; text = "1.04"; ObjectID = "qto-v7-88n"; */
+"qto-v7-88n.text" = "1.04";
+
+/* Class = "UILabel"; text = "Heart Rate"; ObjectID = "rMU-iY-RUt"; */
+"rMU-iY-RUt.text" = "Пульс";
+
+/* Class = "UILabel"; text = "1.04"; ObjectID = "rlb-nf-IOu"; */
+"rlb-nf-IOu.text" = "1.04";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "sc8-J0-BTT"; */
+"sc8-J0-BTT.normalTitle" = "Зарегистрироваться";
+
+/* Class = "UIBarButtonItem"; title = "Sign Up"; ObjectID = "uX8-91-erw"; */
+"uX8-91-erw.title" = "Зарегистрироваться";
+
+/* Class = "UILabel"; text = "Cals:"; ObjectID = "x2g-xd-HQB"; */
+"x2g-xd-HQB.text" = "Калории:";
+
+/* Class = "UILabel"; text = "date"; ObjectID = "xbV-Cm-wOj"; */
+"xbV-Cm-wOj.text" = "дата";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "xlr-sA-aDJ"; */
+"xlr-sA-aDJ.placeholder" = "Фамилия";
+
+/* Class = "UILabel"; text = "02:48:23"; ObjectID = "ysD-p4-ZqZ"; */
+"ysD-p4-ZqZ.text" = "02:48:23";
